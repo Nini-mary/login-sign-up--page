@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .welcome-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .welcome-container h2 {
+            color: #fcb69f;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h2>Welcome to Our Website!</h2>
+        <p>Thank you for signing up. We're excited to have you on board!</p>
+    </div>
+</body>
+</html>
